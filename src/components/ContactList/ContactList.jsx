@@ -20,22 +20,12 @@ const ContactList = () => {
           {contact.phone}
         </div>
         <button
-            className={style.contactListItem__button}
-            type="button"
-            name="delete"
-            onClick={() => dispatch(deleteContacts(contact.id))}>
-            Delete
-          </button>       
-        {/* {
-          contact.name + ' : ' + contact.phone}
-        {
-          <button
-            type="button"
-            name="delete"
-            onClick={() => dispatch(deleteContacts(contact.id))}>
-            Delete
-          </button>
-        } */}
+          className={style.contactListItem__button}
+          type="button"
+          name="delete"
+          onClick={() => dispatch(deleteContacts(contact.id))}>
+          Delete
+        </button>
       </li>
     ))}
   </ul>)
