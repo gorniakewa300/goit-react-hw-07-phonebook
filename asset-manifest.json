@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/gorniakewa300.github.io/goit-react-hw-07-phonebook/static/css/main.7704535e.css",
+    "main.css": "/gorniakewa300.github.io/goit-react-hw-07-phonebook/static/css/main.a0fd1dd8.css",
     "main.js": "/gorniakewa300.github.io/goit-react-hw-07-phonebook/static/js/main.c567e6d7.js",
     "index.html": "/gorniakewa300.github.io/goit-react-hw-07-phonebook/index.html",
-    "main.7704535e.css.map": "/gorniakewa300.github.io/goit-react-hw-07-phonebook/static/css/main.7704535e.css.map",
+    "main.a0fd1dd8.css.map": "/gorniakewa300.github.io/goit-react-hw-07-phonebook/static/css/main.a0fd1dd8.css.map",
     "main.c567e6d7.js.map": "/gorniakewa300.github.io/goit-react-hw-07-phonebook/static/js/main.c567e6d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7704535e.css",
+    "static/css/main.a0fd1dd8.css",
     "static/js/main.c567e6d7.js"
   ]
 }
