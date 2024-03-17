@@ -1,12 +1,12 @@
 import style from './ContactForm.module.css';
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { selectContacts } from '../redux/selectors';
-import { addContacts } from 'components/redux/operations';
+import { selectContacts } from '../../redux/selectors';
+import { addContacts } from '../../redux/operations';
 
 const ContactForm = () => {
   const [name, setName] = useState('');
-  const [number, setNumber] = useState('');
+  const [phone, setNumber] = useState('');
 
   const contacts = useSelector(selectContacts);
   const dispatch = useDispatch();
@@ -23,7 +23,7 @@ const ContactForm = () => {
       return;
     }
 
-    dispatch(addContacts({ name, number }));
+    dispatch(addContacts({ name, phone }));
     setName('');
     setNumber('');
   };
@@ -72,7 +72,7 @@ const ContactForm = () => {
               pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
               title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
               onChange={handleChange}
-              value={number}
+              value={phone}
               required
             />
           </label>
